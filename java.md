@@ -14,16 +14,18 @@ code we write in a  <ins>.java</ins> file is transformed into <ins>byte code</in
 For compiling a java program
 
 ```javac helloworld.java```
+
 A successful compilation produces a .class file: helloworld.class, that we execute with the terminal command:
+
 ```java helloworld```
+
 **Comments**
 ```java
 // this is a single line comment
-/*
-a b c d e f g h i j k
+
+/*a b c d e f g h i j k
 this is a multi line commment
-1 2 3 4 5 6 7 8 9
-*/
+1 2 3 4 5 6 7 8 9*/
 ```
 **Statement**
 ```java
