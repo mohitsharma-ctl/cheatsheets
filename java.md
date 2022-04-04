@@ -50,6 +50,17 @@ float x = 11.11;
 - boolean - stores values with two states: true or false
 - float - stores floating point numbers, with decimals
 
+**Arrays**
+
+1D
+```java
+int[] array = new int[10];
+```
+2D
+
+```java
+int[][] array = new int[10][10];
+```
 
 **for loop**
 
@@ -63,6 +74,7 @@ for(int i = 0;i<10;i++){
 
 ```java
 int arr[]  = {1,2,3,4,5,6};
+
 for(int i:arr){
 System.out.println(i);
 }
