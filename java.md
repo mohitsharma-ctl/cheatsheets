@@ -155,3 +155,11 @@ name.length();  /* Used to print the char at given index
 '5'
 */
 ```
+
+**Hashmap**
+
+```java
+
+HashMap<Character,Integer> map = new HashMap<Character,Integer>();
+
+```
