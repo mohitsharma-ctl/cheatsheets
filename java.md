@@ -139,3 +139,19 @@ switch (day) {
 }
 // Outputs "Thursday" (day 4)
 ```
+**[String Methods](https://www.w3schools.com/java/java_ref_string.asp)**
+
+charAt()
+```java
+String name = "mohit";
+name.charAt(0);  /* Used to print the char at given index
+'m'
+*/
+```
+length()
+```java
+String name = "mohit";
+name.length();  /* Used to print the char at given index
+'5'
+*/
+```
