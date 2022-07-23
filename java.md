@@ -163,3 +163,18 @@ name.length();  /* Used to print the char at given index
 HashMap<Character,Integer> map = new HashMap<Character,Integer>();
 
 ```
+
+**Array list**
+
+Just like list in python , with insert , append , delete functionality 
+```
+import java.util.ArrayList;
+ArrayList<Integer> nums = new ArrayList<Integer>();
+
+nums.add(1);
+nums.get(0);
+nums.remove(0);
+nums.insert(0,2);
+nums.size();
+nums.clear();
+```
