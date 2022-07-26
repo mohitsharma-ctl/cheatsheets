@@ -158,9 +158,15 @@ name.length();  /* Used to print the char at given index
 
 **Hashmap**
 
+Stores the data in key, value pairs
 ```java
-
 HashMap<Character,Integer> map = new HashMap<Character,Integer>();
+hm.put(key,value); for inserting
+hm.get(key,value); //for fetching
+hm.containsKey(key); //for checking if key exist or not
+hm.size(); 	    //length
+hm.isEmpty();    
+
 
 ```
 
@@ -180,6 +186,7 @@ nums.clear();
 ```
 
 **Vector**
+
  Implements a growable array of objects
 ```java
 import java.util.Vector;
