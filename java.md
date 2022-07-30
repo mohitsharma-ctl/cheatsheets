@@ -170,7 +170,7 @@ hm.isEmpty();
 
 ```
 
-**Array list**
+**Array List**
 
 Just like list in python , with insert , append , delete functionality 
 ```java
@@ -194,3 +194,24 @@ Vector<Integer> nums = new Vector<Integer>();
 nums.add(1);
 nums.get(0);
 nums.insertElementAt("Hello", 2);
+```
+
+**Stack**
+
+```java
+Stack<Integer> st = new Stack<Integer>();
+st.push(1);     //insert element into stack
+st.peek();	//check the top element of the stack
+st.pop();	//removing out the element from stack
+```
+
+**Queue**
+
+Queue is a interface so we cant create its object directly, we have to first implement it in some other class
+
+```
+Queue<Integer> q = new LinkedList<Integer>();
+q.add(1);     //insertion
+q.peek();    //returns first element of the q
+q.remove();  //remove the first element of q
+```
