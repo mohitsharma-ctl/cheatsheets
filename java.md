@@ -209,9 +209,73 @@ st.pop();	//removing out the element from stack
 
 Queue is a interface so we cant create its object directly, we have to first implement it in some other class
 
-```
+```java
 Queue<Integer> q = new LinkedList<Integer>();
 q.add(1);     //insertion
 q.peek();    //returns first element of the q
 q.remove();  //remove the first element of q
 ```
+
+**Exception Handling**
+
+*try catch*
+
+It will catch the exception as well as handle it
+
+```java
+try{
+//peice of code
+}
+catch (Exception e){
+//handles the exception
+}
+```
+
+*throws*
+
+Whenever it will see the exception , it will throw the exception <ins>not handle</ins> it
+
+```java
+public class Main{
+public int division() throws ArithmeticException
+{
+int a = 4;
+int b = 0;
+return a/b;
+}
+}
+```
+
+*throw*
+
+It will explicitly throws the exception
+```java
+public void checkAge(int age){
+if(age<18){
+throw new ArithmeticException("Not eligible to vote");
+}
+}
+```
+*finally*
+
+It is printed at the end of try catch statement , it is used so that even when program terminate , whatever stored inside finally will execute
+
+
+```java
+try{
+//peice of code
+}
+catch {
+//handles exception
+}
+finally{
+//everytime executes
+}
+```
+*Common Exceptions*
+
+NullPointerException -
+ArrayIndexOutOfBoundsException - 
+ArithmeticException - 
+ClassNotFoundException - 
+InstantiationException - 
