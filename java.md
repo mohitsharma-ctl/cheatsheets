@@ -166,7 +166,7 @@ hm.get(key,value); //for fetching
 hm.containsKey(key); //for checking if key exist or not
 hm.size(); 	    //length
 hm.isEmpty();    
-
+hm.toString();      //print(hm)
 
 ```
 
